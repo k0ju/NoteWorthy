@@ -1,14 +1,15 @@
 INSERT INTO
-	icon("name")
+	icon("id", "name")
 VALUES
-	('mdi-pot-steam'),
-	('mdi-checkbox-marked'),
-	('mdi-basket-check'),
-	('mdi-calendar-today'),
-	('mdi-lightbulb'),
-	('mdi-account-box'),
-	('mdi-forest'),
-	('mdi-paw'),
-	('mdi-music-box'),
-	('mdi-map-marker'),
-	('mdi-heart');
+	(1, 'mdi-pot-steam'),
+	(2, 'mdi-checkbox-marked'),
+	(3, 'mdi-basket-check'),
+	(4, 'mdi-calendar-today'),
+	(5, 'mdi-lightbulb'),
+	(6, 'mdi-account-box'),
+	(7, 'mdi-forest'),
+	(8, 'mdi-paw'),
+	(9, 'mdi-music-box'),
+	(10, 'mdi-map-marker'),
+	(11, 'mdi-heart')
+ON CONFLICT ("id") DO NOTHING;
