@@ -41,5 +41,6 @@ This is my first full stack project, a note-taking app primarily focused on lear
 3. Build the Maven project `mvn package`.
 
 ### Run Dev Environment within your IDE
-4. Run the project as a Java Application. The main class is located under `de.k0ju.noteworthy.NoteWorthyBackend`.
-5. Open your browser and go to `http://localhost:8080/`.
+4. Import the project into your IDE as a Maven project. Make sure you're selecting the top-level folder.
+5. Run the project as a Java Application. The main class is located under `de.k0ju.noteworthy.NoteWorthyBackend`.
+6. Open your browser and go to `http://localhost:8080/`.
